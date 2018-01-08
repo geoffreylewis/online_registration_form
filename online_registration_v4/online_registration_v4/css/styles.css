@@ -3,11 +3,66 @@ Global Layout Set-up
 =====================*/
 * {
      box-sizing: border-box;
-     margin: 0;
-     padding: 0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
 }
 
+html,
 body {
      margin: 0;
      padding: 0;
+     border: 0;
+     background-color: white;
+     font-family: 'Merriweather', serif;
+}
+
+
+/*===============
+Section Styles
+===============*/
+header {
+     display: flex;
+     width: 100%;
+     min-height: 70px;
+     text-align: center;
+     background-color: rgb(45, 57, 69);
+}
+
+header h1 {
+     width: 100%;
+     height: 100%;
+     color: white;
+     font-size: 1.1em;
+     margin: auto;
+}
+
+main {
+     width: 90%;
+     margin: auto;
+}
+
+section {
+     text-align: center;
+     border-bottom: 4px solid rgb(45, 57, 69);
+}
+
+section h2 {
+     font-size: 1.1em;
+     color: rgb(45, 57, 69);
+}
+
+section p {
+     font-size: .9em;
+     color: rgb(157, 163, 168);
+}
+
+form {
+     border-top: 2px solid rgb(45, 57, 69);
+     margin-top: 4px;
+}
+
+form h2 {
+     font-size: 1.1em;
+     color: rgb(45, 57, 69);
 }

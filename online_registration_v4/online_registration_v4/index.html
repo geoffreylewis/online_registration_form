@@ -21,8 +21,8 @@
                     <p>Get the latest news on how your code is doing right in your inbox</p>
                </section>
                <form action="index.html" method="post">
-                    <div class="contact_info">
-                         <h2>Contact Information</h2>
+                    <fieldset class="contact_info">
+                         <legend><span>Contact Information</span></legend>
                          <label for="name">Full Name</label>
                          <input type="text" id="name" name="user_name">
                          <label for="email">Email Address</label>
@@ -35,26 +35,33 @@
                          <input type="text" id="city" name="user_city">
                          <label for="state">State</label>
                          <select id="state" name="user_state">
-                              <option value="az">AZ</option>
-                              <option value="ca">CA</option>
-                              <option value="nh">NH</option>
+                              <option value="alabama">AL</option>
+                              <option value="alaska">AK</option>
+                              <option value="arizona">AZ</option>
+                              <option value="arkansas">AR</option>
+                              <option value="california">CA</option>
+                              <option value="new_hampshire">NH</option>
                          </select>
                          <label for="zip">Zip Code</label>
                          <input type="number" id="zip" name="user_zip">
-                    </div>
-                    <div class="newsletter">
-                         <h2>Newsletter</h2>
+                    </fieldset>
+                    <fieldset class="newsletter">
+                         <legend><span>Newsletter</span></legend>
+                         <p>Select the newsletters you would like to receive</p>
                          <input type="checkbox" id="html" name="html_news">
                          <label for="html">HTML News</label>
                          <input type="checkbox" id="css" name="css_news">
                          <label for="css">CSS News</label>
                          <input type="checkbox" id="javascript" name="javascript_news">
                          <label for="javascript">Javascript News</label>
+                         <p>Newsletter Format</p>
                          <input type="radio" id="html_text" name="html_format">
                          <label for="html_text">HTML</label>
                          <input type="radio" id="plain_text" name="plain_format">
                          <label for="plain_text">Plain Text</label>
-                    </div>
+                         <textarea id="topics" name="other_topics"></textarea>
+                    </fieldset>
+                    <button type="submit">Sign Up</button>
                </form>
           </main>
      </body>

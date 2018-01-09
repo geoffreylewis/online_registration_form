@@ -18,6 +18,21 @@ body {
 }
 
 
+/*============
+Form Styles
+============*/
+fieldset {
+     margin: 0;
+     padding: 0;
+     border: none;
+}
+
+legend {
+     margin: 0;
+     padding: 0;
+}
+
+
 /*===============
 Section Styles
 ===============*/
@@ -43,7 +58,9 @@ main {
 }
 
 section {
+     width: 100%;
      text-align: center;
+     padding: 15px 0;
      border-bottom: 4px solid rgb(45, 57, 69);
 }
 
@@ -58,16 +75,20 @@ section p {
 }
 
 form {
-     margin-top: 4px;
+     display: flex;
+     flex-direction: column;
 }
 
 form .contact_info {
+     margin-top: 3px;
      border-top: 2px solid rgb(45, 57, 69);
      border-bottom: 2px solid rgb(45, 57, 69);
 }
 
-form h2 {
+.contact_info legend {
+     width: 100%;
      font-size: 1.1em;
+     font-weight: 900;
      color: rgb(45, 57, 69);
 }
 

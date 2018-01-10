@@ -100,3 +100,10 @@ form label {
 form input {
      background-color: rgb(239, 240, 241);
 }
+
+footer p {
+     font-size: .8em;
+     text-align: center;
+     color: rgb(157, 163, 168);
+     font-style: italic;
+}

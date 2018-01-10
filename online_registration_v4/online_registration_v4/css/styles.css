@@ -144,6 +144,12 @@ button {
      padding: 20px;
      font-size: 1.1em;
      font-style: bold;
+     margin: 15px 0;
+}
+
+footer {
+     width: 100%;
+     min-height: 240px;
 }
 
 footer p {
@@ -151,4 +157,5 @@ footer p {
      text-align: center;
      color: rgb(157, 163, 168);
      font-style: italic;
+     padding: 15px 0;
 }

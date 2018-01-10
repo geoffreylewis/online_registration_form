@@ -9,6 +9,7 @@ Global Layout Set-up
      margin: 0;
      padding: 0;
      border: 0;
+     outline: 0;
      font-family: 'Merriweather', serif;
 }
 
@@ -47,6 +48,7 @@ section {
      text-align: center;
      padding: 15px 0;
      border-bottom: 4px solid rgb(45, 57, 69);
+     margin-bottom: 3px;
 }
 
 section h2 {
@@ -59,15 +61,14 @@ section p {
      color: rgb(157, 163, 168);
 }
 
-form {
+fieldset {
      display: flex;
      flex-direction: column;
 }
 
 form .contact_info {
-     margin-top: 3px;
-     border-top: 2px solid rgb(45, 57, 69);
      border-bottom: 2px solid rgb(45, 57, 69);
+     padding-bottom: 25px;
 }
 
 form legend {
@@ -77,6 +78,35 @@ form legend {
      color: rgb(45, 57, 69);
 }
 
+.contact_info legend {
+     padding-top: 25px;
+     padding-bottom: 8px;
+     border-top: 2px solid rgb(45, 57, 69);
+}
+
+.newsletter legend {
+
+}
+
+.contact_info input:not(:last-child),
+.contact_info select {
+     min-height: 50px;
+     width: 100%;
+}
+
+.contact_info input:last-child {
+     min-height: 50px;
+     width: 50%;
+}
+
+label,
+input,
+select,
+.newsletter p,
+textarea {
+     margin: 15px 0;
+}
+
 form label,
 form p {
      font-size: .9em;
@@ -84,8 +114,15 @@ form p {
 }
 
 form input,
+form select,
 form textarea {
      background-color: rgb(239, 240, 241);
+}
+
+.contact_info input,
+textarea,
+button {
+     border-radius: 5px;
 }
 
 ::placeholder {
@@ -95,10 +132,15 @@ form textarea {
      text-align: right;
 }
 
+.newsletter textarea {
+     min-height: 100px;
+     width: 100%;
+}
+
 button {
+     width: 100%;
      background-color: rgb(78, 187, 181);
      color: white;
-     border-radius: 3%;
      padding: 20px;
      font-size: 1.1em;
      font-style: bold;

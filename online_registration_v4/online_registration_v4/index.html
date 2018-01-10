@@ -22,7 +22,7 @@
                </section>
                <form action="index.html" method="post">
                     <fieldset class="contact_info">
-                         <legend><span>Contact Information</span></legend>
+                         <legend>Contact Information</legend>
                          <label for="name">Full Name</label>
                          <input type="text" id="name" name="user_name" placeholder="Required">
                          <label for="email">Email Address</label>
@@ -46,7 +46,7 @@
                          <input type="number" id="zip" name="user_zip">
                     </fieldset>
                     <fieldset class="newsletter">
-                         <legend><span>Newsletter</span></legend>
+                         <legend>Newsletter</legend>
                          <p>Select the newsletters you would like to receive</p>
                          <input type="checkbox" id="html" name="html_news">
                          <label for="html">HTML News</label>
@@ -55,10 +55,11 @@
                          <input type="checkbox" id="javascript" name="javascript_news">
                          <label for="javascript">Javascript News</label>
                          <p>Newsletter Format</p>
-                         <input type="radio" id="html_text" name="html_format">
+                         <input type="radio" id="html_text" value="html_text" name="text_format">
                          <label for="html_text">HTML</label>
-                         <input type="radio" id="plain_text" name="plain_format">
+                         <input type="radio" id="plain_text" value="plain_text" name="text_format">
                          <label for="plain_text">Plain Text</label>
+                         <p>Other topics you'd like to hear about</p>
                          <textarea id="topics" name="other_topics"></textarea>
                     </fieldset>
                     <button type="submit">Sign Up</button>

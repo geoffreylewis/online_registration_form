@@ -35,6 +35,7 @@
                          <input type="text" id="city" name="user_city">
                          <label for="state">State</label>
                          <select id="state" name="user_state">
+                              <option value="" disabled selected>Choose State</option>
                               <option value="alabama">AL</option>
                               <option value="alaska">AK</option>
                               <option value="arizona">AZ</option>
@@ -48,11 +49,11 @@
                     <fieldset class="newsletter">
                          <legend>Newsletter</legend>
                          <p>Select the newsletters you would like to receive</p>
-                         <input type="checkbox" id="html" name="html_news">
+                         <input type="checkbox" id="html" value="html" name="html_news">
                          <label for="html">HTML News</label>
-                         <input type="checkbox" id="css" name="css_news">
+                         <input type="checkbox" id="css" value="css" name="css_news">
                          <label for="css">CSS News</label>
-                         <input type="checkbox" id="javascript" name="javascript_news">
+                         <input type="checkbox" id="javascript" value="javascript" name="javascript_news">
                          <label for="javascript">Javascript News</label>
                          <p>Newsletter Format</p>
                          <input type="radio" id="html_text" value="html_text" name="text_format">

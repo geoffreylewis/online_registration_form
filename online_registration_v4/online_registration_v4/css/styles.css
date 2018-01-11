@@ -40,6 +40,7 @@ header h1 {
 
 main {
      width: 90%;
+     max-width: 600px;
      margin: auto;
 }
 
@@ -102,7 +103,7 @@ input,
 select,
 .newsletter p,
 textarea {
-     margin: 15px 0;
+     margin: 12px 0;
      line-height: 1.7;
 }
 
@@ -154,7 +155,7 @@ button {
      padding: 20px;
      font-size: 1.1em;
      font-style: bold;
-     margin: 15px 0;
+     margin: 20px 0;
 }
 
 footer {
@@ -175,5 +176,37 @@ footer p {
 Styles for larger screens
 ==========================*/
 @media screen and (min-width: 768px) {
-     
+
+     section {
+          padding: 55px 0;
+     }
+
+     section h2 {
+          font-size: 1.5em;
+     }
+
+     form .contact_info {
+          display: block;
+     }
+
+     .contact_info legend {
+          padding-top: 50px;
+     }
+
+     .contact_info label {
+          display: inline-block;
+          width: 29%;
+     }
+
+     .contact_info input:not(:last-child),
+     .contact_info select {
+          display: inline-block;
+          width: 70%;
+     }
+
+     .contact_info input:last-child {
+          display: inline-block;
+          width: 25%;
+     }
+
 }

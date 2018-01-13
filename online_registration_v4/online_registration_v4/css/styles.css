@@ -95,6 +95,10 @@ form legend {
      width: 50%;
 }
 
+option[value=""] {
+     display: none;
+}
+
 label,
 input,
 select,

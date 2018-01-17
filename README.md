@@ -2,7 +2,7 @@
 
 ## Software Summary
 
-I built a mobile-first registration form that includes multiple form elements and attributes including <input>, <label>, <select>, and <option>.  I also included a media query to account for screen sizes 768px and larger in size.
+I built a mobile-first registration form (from a mockup provided by Team Treehouse) that includes multiple form elements and attributes including <input>, <label>, <select>, and <option>.  I also included a media query to account for screen sizes 768px and larger in size.
 
 ## Built With
 
@@ -13,7 +13,7 @@ I built a mobile-first registration form that includes multiple form elements an
 
 * All of the code has been successfully run through the W3C HTML/CSS validators; there are no errors.
 * I didn't add all 50 states to the select dropdown menu on purpose.
-* The rubric for this project says the name attributes for the checkboxes should be identical, but that wouldn't let you select more than one at the same time (which I thought was the point); I left the name attributes unique instead, but I can change it if necessary.
+* The rubric for this project says the name attributes for the checkboxes should be identical, but that wouldn't let you select more than one at the same time (which I thought was the point since it says plural "newsletters"); I left the name attributes unique instead, but I can change it if necessary.
 
 ## Author(s)
 

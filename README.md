@@ -2,7 +2,7 @@
 
 ## Software Summary
 
-I eyed a website mockup at different sizes (provided by Team Treehouse) and programmed it from scratch.  It is programmed as mobile-first, and then there are two media queries that adjust for screen sizes 768px and 1024px so the web page can fit mobiles phones, tablets, and laptops/desktops comfortably.
+I built a mobile-first registration form that includes multiple form elements and attributes including <input>, <label>, <select>, and <option>.  I also included a media query to account for screen sizes 768px and larger in size.
 
 ## Built With
 

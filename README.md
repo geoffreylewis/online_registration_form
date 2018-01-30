@@ -2,7 +2,7 @@
 
 ## Software Summary
 
-I built a mobile-first registration form (from a mockup provided by Team Treehouse) that includes multiple form elements and attributes including <input>, <label>, <select>, and <option>.  I also included a media query to account for screen sizes 768px and larger in size.
+I built a mobile-first registration form (from a mockup provided by Team Treehouse) that includes multiple form elements and attributes including input, label, select, and option.  I also included a media query to account for screen sizes 768px and larger in size.
 
 ## Built With
 
